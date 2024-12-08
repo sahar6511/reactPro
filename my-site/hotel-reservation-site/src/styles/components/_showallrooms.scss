@@ -1,0 +1,70 @@
+.showallrooms{
+
+    width: 100%;
+
+   &-table{
+       td,table{
+           border: 1px solid $light-gray-color ;
+       }
+       td{
+           @extend .p-15;
+           button{
+             
+              color:$white-color;
+               border: none !important;   
+           }
+
+       }
+       th,tr:first-child{
+           @extend .text-center;
+
+       }
+
+           border-collapse: separate;
+           border-spacing: 1px;
+           width: 100%;
+           tr{
+               height: 30px;
+               text-align: right;
+               transition-duration: 400ms;
+              
+           }
+          
+   }
+   &-btns{
+       @include center-flex;
+       gap:10px;
+       button{
+           background-color: $green-color;
+           color:$white-color;
+           border: none !important;
+
+       }
+
+   }
+
+}
+.editing-room-form,
+.adding-room-form{
+
+   table{
+       width: 100%;
+   }
+
+
+   button{
+       margin: 0 auto;
+       color: $white-color;
+       background-color: $green-color;
+       border: none;
+       &:hover{
+           background-color: $green-color-hover;
+       }
+
+   }
+
+}
+
+
+
+

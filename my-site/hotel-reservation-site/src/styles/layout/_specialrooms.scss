@@ -1,0 +1,20 @@
+.special-rooms{
+    @extend .p-15;
+    &__container{
+        @include spacebetween-flex;
+        @extend .ptb-30;
+        
+    }
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .special-rooms__container{
+
+    flex-wrap: wrap;
+    .room-box{
+        width: 100%;
+    }
+    }
+}

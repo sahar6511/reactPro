@@ -1,0 +1,17 @@
+
+
+.box{
+
+    font-size: 1.3rem;
+    min-width: 150px;
+    min-height: 150px;
+    @extend .p-10;
+    border-radius: 5px;
+    border: 1px solid $light-gray-color;
+    @include column-flex;
+    span{
+        font-size: 2rem;
+        color:$orange-color;
+        font-weight: bold;
+    }
+}

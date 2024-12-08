@@ -1,0 +1,35 @@
+.main-menu{
+    // background-image: url(../../images/slide1.jpg);
+    // background-color: #cccccc;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+    // min-height: 100vh;
+   position: absolute;
+    top:0;
+   right: 0;
+   left: 0;
+       z-index: 999;
+ 
+}
+.slider-container {
+    margin: 0 !important;
+    padding: 0 !important;
+ 
+
+    img{
+
+        margin: 0 auto;
+        text-align: center;
+         width: 100%;
+    }
+  }
+  
+  .slick-next{
+    right: 0 !important;
+    z-index: 2;
+  }
+  .slick-prev{
+    left: 0 !important;
+    z-index: 2;
+  }
